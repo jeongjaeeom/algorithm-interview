@@ -11,3 +11,8 @@ class Solution:
                 return False
 
         return True
+
+
+solution = Solution()
+palindrome = solution.isPalindrome('A man, a plan, a canal: Panama')
+print(palindrome)
